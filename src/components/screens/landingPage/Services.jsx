@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Gallery1 from '../../../assets/images/landingPage/Digital-Strategy.png';
 import Gallery2 from '../../../assets/images/landingPage/Branding.png';
-import Gallery3 from '../../../assets/images/heroSectionImages/gallery3.jpeg';
-import Gallery4 from '../../../assets/images/heroSectionImages/gallery4.jpeg';
-import Gallery5 from '../../../assets/images/heroSectionImages/gallery5.jpeg';
-import Gallery6 from '../../../assets/images/heroSectionImages/gallery6.jpeg';
 import Group from '../../../assets/images/landingPage/OurServices.png';
 
 function Services() {

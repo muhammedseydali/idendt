@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import HeroImage from '../../../assets/images/landingPage/Cover.png';
 import Pattern from '../../../assets/images/landingPage/Pattern.png';
 

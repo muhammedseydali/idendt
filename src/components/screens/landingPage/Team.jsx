@@ -8,9 +8,6 @@ import Gallery5 from '../../../assets/images/team/Sachin.png';
 import Gallery6 from '../../../assets/images/team/Dilju.png';
 import LinkedInLogo from '../../../assets/images/linkedin.webp';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faLinkedin } from "@fortawesome/free-solid-svg-icons";
-
 function Team() {
     const teamData = [
         {

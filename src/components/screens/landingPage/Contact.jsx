@@ -1,12 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Gallery1 from '../../../assets/images/heroSectionImages/gallery1.jpeg';
-import Gallery2 from '../../../assets/images/heroSectionImages/gallery2.jpeg';
-import Gallery3 from '../../../assets/images/heroSectionImages/gallery3.jpeg';
-import Gallery4 from '../../../assets/images/heroSectionImages/gallery4.jpeg';
-import Gallery5 from '../../../assets/images/heroSectionImages/gallery5.jpeg';
-import Gallery6 from '../../../assets/images/heroSectionImages/gallery6.jpeg';
-import Group from '../../../assets/images/heroSectionImages/group.jpeg';
 
 function Contact() {
     return (
