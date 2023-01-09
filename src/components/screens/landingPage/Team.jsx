@@ -75,6 +75,12 @@ export default Team;
 const MainContainer = styled.div `
     /* height: calc(100vh - 220px); */
     padding-bottom: 80px;
+    @media all and (max-width: 640px) {
+        padding-bottom: 30px;
+    }
+    @media all and (max-width: 480px) {
+        padding-bottom: 20px;
+    }
 `;
 const WrapperContainer = styled.div `
     width: 80%;
@@ -83,12 +89,24 @@ const WrapperContainer = styled.div `
 const Title = styled.h3 `
     font-size: 32px;
     margin-bottom: 20px;
+    @media all and (max-width: 980px) {
+        font-size: 28px;
+    }
+    @media all and (max-width: 480px) {
+        font-size: 24px;
+    }
 `;
 const ImageGallery = styled.div `
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
     margin-bottom: 30px;
+    @media all and (max-width: 768px) {
+        grid-template-columns: auto auto;
+    }
+    @media all and (max-width: 480px) {
+        grid-template-columns: auto;
+    }
 `;
 const ImageContainer = styled.div `
     position: relative;
@@ -109,6 +127,9 @@ const ContentHeading = styled.h5`
     font-size: 22px;
     font-weight: 600;
     margin-right: 10px;
+    @media all and (max-width: 980px) {
+        font-size: 18px;
+    }
 `;
 const ContentDescription = styled.a`
     font-size: 20px;

@@ -51,6 +51,12 @@ const HeroImageContainer = styled.div`
         width: 100%;
         display: block;
     }
+    @media all and (max-width: 640px) {
+        width: 70%;
+    }
+    @media all and (max-width: 480px) {
+        width: 80%;
+    }
 `;
 const ContentContainer = styled.div`
     margin: -100px 0 0;
@@ -66,29 +72,59 @@ const BottomImageContainer = styled.div`
         bottom: 0;
         z-index: -1;
     }
+    @media all and (max-width: 980px) {
+        height: 200px;
+    }
+    @media all and (max-width: 768px) {
+        height: 175px;
+    }
+    @media all and (max-width: 640px) {
+        height: 150px;
+    }
+    @media all and (max-width: 480px) {
+        height: 100px;
+    }
 `;
 const Title = styled.h3`
     font-size: 38px;
     margin-bottom: 15px;
-    `;
+    @media all and (max-width: 980px) {
+        font-size: 32px;
+    }
+    @media all and (max-width: 640px) {
+        font-size: 26px;
+    }
+`;
 const SubTitle = styled.h5`
     font-size: 22px;
     font-weight: 900;
     margin-bottom: 25px;
+    @media all and (max-width: 980px) {
+        font-size: 18px;
+    }
+    @media all and (max-width: 480px) {
+        font-size: 14px;
+    }
 `;
 const IdentifyButton = styled.div`
     cursor: pointer;
-    border-right: 2.5px solid #fff;
-    border-bottom: 2.5px solid #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
     width: fit-content;
-    padding: 8px 12px;
+    padding: 10px 20px;
     font-size: 25px;
     margin: 0 auto;
     transition: all 0.3s ease-in-out;
     :hover{
         background-color: #fff;
         color: #000;
-        border-radius: 5px;
+        border-radius: 10px;
         transition: all 0.3s ease-in-out;
+    }
+    @media all and (max-width: 980px) {
+        font-size: 18px;
+    }
+    @media all and (max-width: 480px) {
+        font-size: 14px;
     }
 `;

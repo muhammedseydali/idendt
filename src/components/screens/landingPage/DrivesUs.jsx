@@ -33,6 +33,12 @@ export default DrivesUs;
 const MainContainer = styled.div `
     /* height: calc(100vh - 220px); */
     padding-bottom: 80px;
+    @media all and (max-width: 640px) {
+        padding-bottom: 30px;
+    }
+    @media all and (max-width: 480px) {
+        padding-bottom: 20px;
+    }
 `;
 const WrapperContainer = styled.div `
     width: 80%;
@@ -41,6 +47,12 @@ const WrapperContainer = styled.div `
 const Title = styled.h3 `
     font-size: 32px;
     margin-bottom: 20px;
+    @media all and (max-width: 980px) {
+        font-size: 28px;
+    }
+    @media all and (max-width: 480px) {
+        font-size: 24px;
+    }
 `;
 const ImageContainer = styled.div `
     width: 50%;
@@ -49,6 +61,13 @@ const ImageContainer = styled.div `
         width: 100%;
         display: block;
     }
+
+    @media all and (max-width: 980px) {
+        width: 70%;
+    }
+    @media all and (max-width: 640px) {
+        width: 100%;
+    }
 `;
 const TagLine = styled.small`
     font-size: 28px;
@@ -56,7 +75,16 @@ const TagLine = styled.small`
     display: block;
     text-align: center;
     margin-bottom: 25px;
+    @media all and (max-width: 480px) {
+        font-size: 20px;
+    }
 `;
 const DescriptionBox = styled.p`
     font-size: 20px;
+    @media all and (max-width: 980px) {
+        font-size: 18px;
+    }
+    @media all and (max-width: 480px) {
+        font-size: 13px;
+    }
 `;

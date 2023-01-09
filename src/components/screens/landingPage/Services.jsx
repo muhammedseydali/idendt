@@ -54,7 +54,7 @@ function Services() {
                             <img src={item.image} alt="Image" />
                             <BottomContent className={toggle === item.id ? "hoverContent" : ""}>
                                 <ContentHeading>{item.title}</ContentHeading>
-                                <ContentDescription>
+                                <ContentDescription className={toggle === item.id ? "onHoverContent" : ""}>
                                     {item.subtitle}
                                 </ContentDescription>
                             </BottomContent>
@@ -75,6 +75,12 @@ export default Services;
 const MainContainer = styled.div `
     /* height: calc(100vh - 220px); */
     padding-bottom: 80px;
+    @media all and (max-width: 640px) {
+        padding-bottom: 30px;
+    }
+    @media all and (max-width: 480px) {
+        padding-bottom: 20px;
+    }
 `;
 const WrapperContainer = styled.div `
     width: 80%;
@@ -83,6 +89,9 @@ const WrapperContainer = styled.div `
 const Title = styled.h3 `
     font-size: 32px;
     margin-bottom: 20px;
+    @media all and (max-width: 980px) {
+        font-size: 28px;
+    }
 `;
 const ImageGallery = styled.div `
     display: grid;
@@ -90,6 +99,12 @@ const ImageGallery = styled.div `
     padding: 10px;
     margin-bottom: 30px;
     cursor: pointer;
+    @media all and (max-width: 768px) {
+        grid-template-columns: auto auto;
+    }
+    @media all and (max-width: 480px) {
+        grid-template-columns: auto;
+    }
 `;
 const ImageContainer = styled.div `
     position: relative;
@@ -106,6 +121,9 @@ const TagLine = styled.small`
     text-align: center;
     margin-bottom: 25px;
     font-family: Georgia;
+    @media all and (max-width: 480px) {
+        font-size: 20px;
+    }
 `;
 const TagContent = styled.p`
     font-family: "Inter";
@@ -121,19 +139,49 @@ const BottomContent = styled.div `
     );
     padding: 10px;
     width: 100%;
+    height: 100%;
     position: absolute;
-    top: 85%;
+    top: 75%;
     transition: all 0.3s ease-in-out;
+    overflow: scroll;
     &.hoverContent {
         top: 0;
         transition: all 0.3s ease-in-out;
+    }
+
+    @media all and (min-width: 1311px) {
+        top: 85%;
+    }
+    @media all and (max-width: 980px) {
+        top: 70%;
+    }
+    @media all and (max-width: 768px) {
+        top: 77%;
+    }
+    @media all and (max-width: 480px) {
+        top: 85%;
+    }
+    @media all and (max-width: 360px) {
+        top: 76%;
     }
 `;
 const ContentHeading = styled.h5`
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px;
+    @media all and (max-width: 980px) {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 `;
 const ContentDescription = styled.p`
     font-size: 16px;
+    display: none;
+    &.onHoverContent {
+        display: inline-block;
+    }
+    @media all and (max-width: 980px) {
+        font-size: 12px;
+    }
+
 `;

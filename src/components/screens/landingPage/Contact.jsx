@@ -45,6 +45,12 @@ const WrapperContainer = styled.div `
 const Title = styled.h3 `
     font-size: 32px;
     margin-bottom: 20px;
+    @media all and (max-width: 980px) {
+        font-size: 28px;
+    }
+    @media all and (max-width: 480px) {
+        font-size: 24px;
+    }
 `;
 const TopContainer = styled.div `
     width: 80%;
@@ -71,12 +77,18 @@ const BottomContainer = styled.div `
 const TopContent = styled.div`
     small{
         font-size: 20px;
+        @media all and (max-width: 980px) {
+            font-size: 16px;
+        }
     }
     a{
         color: #fff;
         font-size: 20px;
         margin-bottom: 10px;
         display: inline-block;
+        @media all and (max-width: 980px) {
+            font-size: 18px;
+        }
     }
 `;
 const TelephoneContainer = styled.div`

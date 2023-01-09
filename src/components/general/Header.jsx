@@ -52,6 +52,9 @@ const LeftBox = styled.div `
 `;
 const LogoContainer = styled.div `
     width: 200px;
+    @media all and (max-width: 480px) {
+        width: 130px;
+    }
 `;
 const LogoImage = styled.img `
     width: 100%;
