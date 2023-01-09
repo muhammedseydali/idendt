@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import OurCompanyImage from '../../../assets/images/landingPage/OurIdendtOne.png';
 
-function OurCompany() {
+function OurCompany({scrollRef}) {
     return (
-        <MainContainer>
+        <MainContainer ref={scrollRef}>
             <WrapperContainer>
                 <Title>OUR IdenDT</Title>
                 <InnerContainer>
@@ -34,9 +34,7 @@ function OurCompany() {
                         <ImageContainer>
                             <CompanyImage src={OurCompanyImage} alt="Company Image" />
                         </ImageContainer>
-                        <ContentBottom>
-                            "YOUR BUSINESS IS <br />OUR BUSINESS."
-                        </ContentBottom>
+                        <TagLine>"<TagContent>YOUR BUSINESS IS <br />OUR BUSINESS.</TagContent>"</TagLine>
                     </RightBoxContainer>
                 </InnerContainer>
             </WrapperContainer>
@@ -106,16 +104,29 @@ const RightBoxContainer = styled.div `
 `;
 const ImageContainer = styled.div`
     width: 50%;
+    @media all and (min-width: 1280px) {
+        width: 40%;
+    }
+    @media all and (min-width: 1500px) {
+        width: 30%;
+    }
 `;
 const CompanyImage = styled.img`
     display: block;
     width: 100%;
 `;
-const ContentBottom = styled.small`
+const TagLine = styled.small`
     font-size: 28px;
     font-style: italic;
-    margin-top: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Georgia;
     @media all and (max-width: 480px) {
         font-size: 20px;
     }
+`;
+const TagContent = styled.p`
+    font-family: 'Inter-Bold';
+    display: inline;
 `;

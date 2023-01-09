@@ -38,6 +38,13 @@ const MainContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-bottom: 80px;
+    @media all and (max-width: 640px) {
+        padding-bottom: 30px;
+    }
+    @media all and (max-width: 480px) {
+        padding-bottom: 20px;
+    }
 `;
 const WrapperContainer = styled.div`
     width: 80%;

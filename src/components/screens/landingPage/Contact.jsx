@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function Contact() {
+function Contact({contactRef}) {
     return (
-        <MainContainer>
+        <MainContainer ref={contactRef}>
             <WrapperContainer>
                 <TopContainer>
                     <Title>FIND US</Title>

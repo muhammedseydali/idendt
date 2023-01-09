@@ -4,7 +4,7 @@ import Gallery1 from '../../../assets/images/landingPage/Digital-Strategy.png';
 import Gallery2 from '../../../assets/images/landingPage/Branding.png';
 import Group from '../../../assets/images/landingPage/OurServices.png';
 
-function Services() {
+function Services({serviceRef}) {
     const [ toggle, setToggle ] = useState();
     const serviceData = [
         {
@@ -46,7 +46,7 @@ function Services() {
     ];
     return (
         <MainContainer>
-            <WrapperContainer>
+            <WrapperContainer  ref={serviceRef}>
                 <Title>OUR SERVICES</Title>
                 <ImageGallery>
                     {serviceData.map((item) => (
@@ -124,10 +124,10 @@ const TagLine = styled.small`
     @media all and (max-width: 480px) {
         font-size: 20px;
     }
-`;
+    `;
 const TagContent = styled.p`
-    font-family: "Inter";
     display: inline;
+    font-family: "Inter-Bold";
 `;
 const BottomContent = styled.div `
     /* background-image: linear-gradient(to bottom, #5c5c5c 30%, rgba(255,255,255,0));
@@ -169,6 +169,7 @@ const ContentHeading = styled.h5`
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px;
+    font-family: 'Inter-Bold';
     @media all and (max-width: 980px) {
         font-size: 16px;
         margin-bottom: 10px;

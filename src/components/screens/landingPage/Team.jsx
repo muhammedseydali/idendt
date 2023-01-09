@@ -8,7 +8,7 @@ import Gallery5 from '../../../assets/images/team/Sachin.png';
 import Gallery6 from '../../../assets/images/team/Dilju.png';
 import LinkedInLogo from '../../../assets/images/linkedin.webp';
 
-function Team() {
+function Team({teamRef}) {
     const teamData = [
         {
             "id" : 1,
@@ -48,7 +48,7 @@ function Team() {
         },
     ];
     return (
-        <MainContainer>
+        <MainContainer ref={teamRef}>
             <WrapperContainer>
                 <Title>OUR TEAM</Title>
                 <ImageGallery>
@@ -127,6 +127,7 @@ const ContentHeading = styled.h5`
     font-size: 22px;
     font-weight: 600;
     margin-right: 10px;
+    font-family: 'Inter-Bold';
     @media all and (max-width: 980px) {
         font-size: 18px;
     }

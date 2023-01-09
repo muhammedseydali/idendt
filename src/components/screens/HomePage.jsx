@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components'
 import Footer from '../general/Footer';
 import Header from '../general/Header';
@@ -11,16 +11,50 @@ import Services from './landingPage/Services';
 import Team from './landingPage/Team';
 
 function HomePage() {
+    const [scroll, setScroll] = useState("")
+    const scrollRef = useRef()
+    const serviceRef = useRef()
+    const teamRef = useRef()
+    const contactRef = useRef()
+    const handleScroll = ()=>{
+        if (scroll == "about"){
+            scrollRef.current?.scrollIntoView({
+                behavior: 'smooth',
+                block : 'start'
+            })
+        }
+        else if(scroll == "service"){
+            serviceRef.current?.scrollIntoView({
+                behavior: 'smooth',
+                block : 'start'
+            })
+        }
+        else if(scroll == "team"){
+            teamRef.current?.scrollIntoView({
+                behavior: 'smooth',
+                block : 'start'
+            })
+        }
+        else if(scroll == "contact"){
+            contactRef.current?.scrollIntoView({
+                behavior: 'smooth',
+                block : 'start'
+            })
+        }
+    }
+    useEffect(()=>{
+        handleScroll()
+    },[scroll])
     return (
         <MainContainer>
-            <Header />
+            <Header setScroll={setScroll}/>
             <HeroSection />
-            <OurCompany />
+            <OurCompany scrollRef={scrollRef} />
             <DrivesUs />
-            <Services />
-            <Team />
+            <Services serviceRef={serviceRef} />
+            <Team teamRef={teamRef}/>
             <BlogFaq />
-            <Contact />
+            <Contact contactRef={contactRef} />
             <Footer />
         </MainContainer>
     )

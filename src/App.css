@@ -1,10 +1,18 @@
 @font-face {
     font-family: 'Inter';
-    src: url('./assets/fonts/inter/Inter-Light.woff2') format('woff2'),
-         url('./assets/fonts/inter/Inter-Light.woff') format('woff');
+    src: url('./assets/fonts/inter/interlight/Inter-Light.woff2') format('woff2'),
+         url('./assets/fonts/inter/interlight/Inter-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./assets/fonts/inter/interlight/Inter-Bold.woff2') format('woff2'),
+        url('./assets/fonts/inter/interlight/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {

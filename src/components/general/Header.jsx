@@ -5,11 +5,11 @@ import Logo from "../../assets/images/logo-white.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-function Header() {
+function Header({setScroll}) {
     const [ toggle, setToggle ] = useState(false);
 
     return (
-        <MainContainer>
+        <MainContainer id="box">
             <WrapperContainer>
                 <LeftBox>
                     <LogoContainer> 
@@ -24,10 +24,10 @@ function Header() {
                         <CloseContainer>
                             <FontAwesomeIcon icon={faXmark} onClick={() => setToggle(false)}/>
                         </CloseContainer>
-                        <span>About</span>
-                        <span>Services</span>
-                        <span>Our Team</span>
-                        <span>Contact</span>
+                        <span onClick={() => setScroll("about")}>About</span>
+                        <span onClick={() => setScroll("service")}>Services</span>
+                        <span onClick={() => setScroll("team")}>Our Team</span>
+                        <span onClick={() => setScroll("contact")}>Contact</span>
                     </MenuContent>
                 </RightBox>
             </WrapperContainer>
@@ -92,6 +92,10 @@ const MenuContent = styled.div `
     span {
         margin: 10px 0 30px;
         font-size: 25px;
+        cursor: pointer;
+        &:hover{
+            border-bottom: 1px solid #fff;
+        }
     }
 
     svg {
