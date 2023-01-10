@@ -14,19 +14,19 @@ function Team({teamRef}) {
             "id" : 1,
             "image" : Gallery1,
             "title" : "Shabeeb P A",
-            "linkedin" : "https://linkedin.com/idendt"
+            "linkedin" : "https://www.linkedin.com/in/shabeeb-pulikoodan-19706a83/"
         },
         {
             "id" : 2,
             "image" : Gallery2,
             "title" : "Afeef Abbas",
-            "linkedin" : "https://linkedin.com/idendt"
+            "linkedin" : "https://www.linkedin.com/in/afeef-p-abbas-ba7372227/"
         },
         {
             "id" : 3,
             "image" : Gallery3,
             "title" : "Amal Sajan",
-            "linkedin" : "https://linkedin.com/idendt"
+            "linkedin" : "https://www.linkedin.com/in/amal-sajan-47660b1b3/"
         },
         {
             "id" : 4,
@@ -38,13 +38,13 @@ function Team({teamRef}) {
             "id" : 5,
             "image" : Gallery5,
             "title" : "Sachin Ajayan",
-            "linkedin" : "https://linkedin.com/idendt"
+            "linkedin" : "https://www.linkedin.com/in/sachin-ajayan-a7367025a/"
         },
         {
             "id" : 6,
             "image" : Gallery6,
             "title" : "Dilju Sukumaran",
-            "linkedin" : "https://linkedin.com"
+            "linkedin" : "https://www.linkedin.com/in/dilju-sukumaran-4a636520b/"
         },
     ];
     return (
