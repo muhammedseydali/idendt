@@ -115,7 +115,7 @@ const TagLine = styled.small`
     }
 `;
 const TagContent = styled.p`
-    font-size: 20px;
+    font-size: 26px;
     display: inline;
 `;
 const DescriptionBox = styled.p`

@@ -65,7 +65,7 @@ function Services({serviceRef}) {
                         </ImageContainer>
                     ))}
                 </ImageGallery>
-                <TagLine>"<TagContent>QUALITY OVER QUANTITY <br />AND RESULTS OVER EXCUSES</TagContent>"</TagLine>
+                <TagLine>" <TagContent>QUALITY OVER QUANTITY <br />AND RESULTS OVER EXCUSES</TagContent> "</TagLine>
                 <ImageContainer>
                     <img src={Group} alt="Image" />
                 </ImageContainer>
@@ -131,8 +131,9 @@ const TagLine = styled.small`
     `;
 const TagContent = styled.p`
     display: inline;
-    font-family: "Inter-Bold";
+    font-style: italic;
 `;
+
 const BottomContent = styled.div `
     /* background-image: linear-gradient(to bottom, #5c5c5c 30%, rgba(255,255,255,0));
     box-shadow: 0px -2px 2px rgba(34,34,34,0.6); */
@@ -172,8 +173,8 @@ const BottomContent = styled.div `
 const ContentHeading = styled.h5`
     font-size: 22px;
     font-weight: 600;
+    text-align: center;
     margin-bottom: 20px;
-    font-family: 'Inter-Bold';
     @media all and (max-width: 980px) {
         font-size: 16px;
         margin-bottom: 10px;

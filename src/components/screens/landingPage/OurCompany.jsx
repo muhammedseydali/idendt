@@ -127,5 +127,6 @@ const TagLine = styled.small`
     }
 `;
 const TagContent = styled.p`
+    font-size: 28px;
     display: inline;
 `;
