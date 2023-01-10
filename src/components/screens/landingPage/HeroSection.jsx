@@ -14,9 +14,6 @@ function HeroSection() {
                 <Title>
                     BRANDING & BEYOND
                 </Title>
-                <SubTitle>
-                    Step by step, Brick by brick, We’ll help you build your brand
-                </SubTitle>
                 <IdentifyButton>
                     Get Identified
                 </IdentifyButton>

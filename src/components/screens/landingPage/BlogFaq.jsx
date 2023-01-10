@@ -30,7 +30,7 @@ function BlogFaq() {
     return (
         <MainContainer>
             <WrapperContainer>
-                <BlogContainer>
+                {/* <BlogContainer>
                     <Title>OUR LATEST BLOGS</Title>
                     <ImageGallery>
                         <ImageContainer>
@@ -43,7 +43,7 @@ function BlogFaq() {
                             <img src={Blog} alt="Image" />
                         </ImageContainer>
                     </ImageGallery>
-                </BlogContainer>
+                </BlogContainer> */}
                 <FaqContainer>
                     <Title>FAQ</Title>
                     <SubTitle>CLARIFYING YOUR CONCERNS AND DOUBTS.</SubTitle>
