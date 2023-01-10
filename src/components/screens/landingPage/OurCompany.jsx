@@ -34,7 +34,7 @@ function OurCompany({scrollRef}) {
                         <ImageContainer>
                             <CompanyImage src={OurCompanyImage} alt="Company Image" />
                         </ImageContainer>
-                        <TagLine>"<TagContent>YOUR BUSINESS IS <br />OUR BUSINESS.</TagContent>"</TagLine>
+                        <TagLine>" <TagContent>YOUR BUSINESS IS <br />OUR BUSINESS.</TagContent> "</TagLine>
                     </RightBoxContainer>
                 </InnerContainer>
             </WrapperContainer>
@@ -127,6 +127,5 @@ const TagLine = styled.small`
     }
 `;
 const TagContent = styled.p`
-    font-family: 'Inter-Bold';
     display: inline;
 `;

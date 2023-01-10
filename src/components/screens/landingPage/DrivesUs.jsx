@@ -12,7 +12,7 @@ function DrivesUs() {
                         <ImageContainer>
                             <img src={Dm2} alt="Image" />
                         </ImageContainer>
-                        <TagLine>"<TagContent>SIMPLIFY MARKETING.<br /> GROW AS A BRAND.<br /> LEAD THE MARKET.</TagContent>"</TagLine>
+                        <TagLine>" <TagContent>SIMPLIFY MARKETING.<br /> GROW AS A BRAND.<br /> LEAD THE MARKET.</TagContent> "</TagLine>
                     </LeftBox>
                     <RightBox>
                         <DescriptionBox>
@@ -115,7 +115,7 @@ const TagLine = styled.small`
     }
 `;
 const TagContent = styled.p`
-    font-family: 'Inter-Bold';
+    font-size: 20px;
     display: inline;
 `;
 const DescriptionBox = styled.p`
