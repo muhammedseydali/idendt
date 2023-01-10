@@ -12,7 +12,7 @@ function DrivesUs() {
                         <ImageContainer>
                             <img src={Dm2} alt="Image" />
                         </ImageContainer>
-                        <TagLine>"<TagContent>SIMPLIFY MARKETING. GROW AS A BRAND. LEAD THE MARKET.</TagContent>"</TagLine>
+                        <TagLine>"<TagContent>SIMPLIFY MARKETING.<br /> GROW AS A BRAND.<br /> LEAD THE MARKET.</TagContent>"</TagLine>
                     </LeftBox>
                     <RightBox>
                         <DescriptionBox>
@@ -88,7 +88,7 @@ const Title = styled.h3 `
     }
 `;
 const ImageContainer = styled.div `
-    /* width: 50%; */
+    width: 65%;
     margin: 0 auto 20px;
     
     img {
