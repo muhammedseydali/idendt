@@ -32,7 +32,7 @@ function Team({teamRef}) {
             "id" : 4,
             "image" : Gallery4,
             "title" : "Jose Chacko",
-            "linkedin" : "https://linkedin.com/idendt"
+            "linkedin" : "https://www.linkedin.com/in/jose-chacko-799971113/"
         },
         {
             "id" : 5,
