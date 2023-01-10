@@ -17,13 +17,13 @@ function HomePage() {
     const teamRef = useRef()
     const contactRef = useRef()
     const handleScroll = ()=>{
-        if (scroll == "about"){
+        if (scroll === "about"){
             scrollRef.current?.scrollIntoView({
                 behavior: 'smooth',
                 block : 'start'
             })
         }
-        else if(scroll == "service"){
+        else if(scroll === "service"){
             serviceRef.current?.scrollIntoView({
                 behavior: 'smooth',
                 block : 'start'
