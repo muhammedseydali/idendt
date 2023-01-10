@@ -121,7 +121,7 @@ const TagLine = styled.small`
     display: block;
     text-align: center;
     margin-bottom: 25px;
-    font-family: Georgia;
+    font-family: 'Georgia';
     @media all and (max-width: 480px) {
         font-size: 20px;
     }

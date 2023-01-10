@@ -15,6 +15,16 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Georgia';
+    src: url('./assets/fonts/georgia/Georgia-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/georgia/Georgia-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 * {
     margin: 0;
     padding: 0;
