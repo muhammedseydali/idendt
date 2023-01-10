@@ -29,13 +29,13 @@ function HomePage() {
                 block : 'start'
             })
         }
-        else if(scroll == "team"){
+        else if(scroll === "team"){
             teamRef.current?.scrollIntoView({
                 behavior: 'smooth',
                 block : 'start'
             })
         }
-        else if(scroll == "contact"){
+        else if(scroll === "contact"){
             contactRef.current?.scrollIntoView({
                 behavior: 'smooth',
                 block : 'start'
