@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/idendt/static/css/main.c8001850.css",
+    "main.js": "/idendt/static/js/main.f89bc1dd.js",
+    "static/js/787.4a6dfc05.chunk.js": "/idendt/static/js/787.4a6dfc05.chunk.js",
+    "static/media/OurServices.png": "/idendt/static/media/OurServices.8205253f9b55e9a688b6.png",
+    "static/media/OurIdendtOne.png": "/idendt/static/media/OurIdendtOne.1e6f04c66a3cbfc0c6de.png",
+    "static/media/WhatDrivesUs.png": "/idendt/static/media/WhatDrivesUs.7f6f3c13381708f2c7c1.png",
+    "static/media/Cover.png": "/idendt/static/media/Cover.73500e4367acc817c240.png",
+    "static/media/Pattern.png": "/idendt/static/media/Pattern.732cff5095fb8861cd19.png",
+    "static/media/Afeef.png": "/idendt/static/media/Afeef.ee8c10308756e5e89bb7.png",
+    "static/media/Design-and-Media.png": "/idendt/static/media/Design-and-Media.d68ce42086a7f40dced7.png",
+    "static/media/Marketing.png": "/idendt/static/media/Marketing.9efcb49afa3664f31309.png",
+    "static/media/Web-development.png": "/idendt/static/media/Web-development.2588eb7d73e0d34a8cb6.png",
+    "static/media/Jose.png": "/idendt/static/media/Jose.a568af59ec775a487321.png",
+    "static/media/Shabeeb.png": "/idendt/static/media/Shabeeb.58220a98ffaf2b30b672.png",
+    "static/media/Sachin.png": "/idendt/static/media/Sachin.b9cb6756ad9ad027b652.png",
+    "static/media/Digital-Strategy.png": "/idendt/static/media/Digital-Strategy.aa111106cd37b409d7eb.png",
+    "static/media/Inter-Bold.woff": "/idendt/static/media/Inter-Bold.3a84061fa1e9573b4a9f.woff",
+    "static/media/SEO.png": "/idendt/static/media/SEO.d4c1eaad571f45f1d453.png",
+    "static/media/blog.png": "/idendt/static/media/blog.6b5fcd2f41672271cc59.png",
+    "static/media/Inter-Light.woff": "/idendt/static/media/Inter-Light.994e34451cc19ede31d3.woff",
+    "static/media/Branding.png": "/idendt/static/media/Branding.6d5a388553b45a5ccb89.png",
+    "static/media/Dilju.png": "/idendt/static/media/Dilju.1e257a010dc40e7bcf2e.png",
+    "static/media/Georgia-BoldItalic.woff": "/idendt/static/media/Georgia-BoldItalic.9a43b7031ff9edd24daa.woff",
+    "static/media/Inter-Bold.woff2": "/idendt/static/media/Inter-Bold.df454d31cb00344b1ff1.woff2",
+    "static/media/Inter-Light.woff2": "/idendt/static/media/Inter-Light.2d5198822ab091ce4305.woff2",
+    "static/media/Georgia-BoldItalic.woff2": "/idendt/static/media/Georgia-BoldItalic.2099dda987abe6fc4070.woff2",
+    "static/media/Amal.png": "/idendt/static/media/Amal.9df11e792a91cedc0b25.png",
+    "static/media/logo-white.png": "/idendt/static/media/logo-white.2e1b05ab06e72ef0e379.png",
+    "static/media/linkedin.webp": "/idendt/static/media/linkedin.a27dd3b2b8687a77a911.webp",
+    "index.html": "/idendt/index.html",
+    "main.c8001850.css.map": "/idendt/static/css/main.c8001850.css.map",
+    "main.f89bc1dd.js.map": "/idendt/static/js/main.f89bc1dd.js.map",
+    "787.4a6dfc05.chunk.js.map": "/idendt/static/js/787.4a6dfc05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8001850.css",
+    "static/js/main.f89bc1dd.js"
+  ]
+}
